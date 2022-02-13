@@ -1,6 +1,8 @@
 # f**k forensic
 Explanations on how to be invisible from digital forensic experts
 
+/!\ Methods, tools or knowledge is missing so this readme will change.
+
 #### This project is not affiliated with anyone, all the tools shown here are for education purpose only (with the objective of understanding how digital forensic work)
 # Summary
 1. [Summary](#summary)
