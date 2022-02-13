@@ -61,3 +61,41 @@ Some important step that you need to do:
 - Use differents emails
 
 # On your computer
+
+## Operating system
+I recommend using a Linux distribution because on windows you are tracked by Microsoft and most Linux distributions allow LVM disk encryption
+
+If you want to use Windows either you use a windows ISO or you can emulate windows on Linux with high performance.
+
+If you want to use a windows ISO, uncheck every tracking options and GPS option.
+
+If you want to use Linux and emulating windows follow the GPU passthrough KVM.
+
+https://gitlab.com/risingprismtv/single-gpu-passthrough
+
+## Disk encryption
+To encrypt disk you have multiple choices the first based on your operating system and the second on which method you wanna use.
+
+YOU NEED TO WIPE ANY DATA LEFT ON THE DISK.
+
+### Windows
+You can use Bitlocker but you need Windows 10 Pro or Enterprise.
+
+https://www.windowscentral.com/how-use-bitlocker-encryption-windows-10
+
+### Linux
+You can use LVM disk encryption at installation or if your system is already installed then use cryptsetup
+
+https://dev.to/lobo_tuerto/how-to-setup-full-disk-encryption-on-a-secondary-hdd-in-linux-4047
+
+## Hard drive wiping
+When wiping a hard drive uncheck the fast wiping option and use full wiping (delete data). But I recommend to use a tool called wipedicks to be safe.
+
+https://github.com/Drewsif/wipedicks (Will annoy digital forensic experts)
+
+## Files
+If you want to delete files without leaving a trace, encrypt them and then delete.
+
+You can use these tools:
+- https://github.com/Drewsif/wipedicks
+- https://github.com/r3nt0n/wiper
